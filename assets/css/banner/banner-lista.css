@@ -1,0 +1,27 @@
+.banner__lista{
+}
+
+.banner__redes{
+  display: flex;
+  font-size: 12px;
+  justify-items: center;
+}
+
+.redes__item{
+  list-style: none;
+  padding: 10px;
+}
+
+.redes__link{
+  color: black;
+  margin-right: .5rem;
+  text-decoration: none;
+  
+}
+
+a[href*="http"] {
+  background: url('/assets/img/flecha.png') no-repeat 100% 0;
+  background-size: 16px 16px;
+  padding-right: 19px;
+}
+
