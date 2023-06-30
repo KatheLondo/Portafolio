@@ -19,9 +19,4 @@
   
 }
 
-a[href*="http"] {
-  background: url('/assets/img/flecha.png') no-repeat 100% 0;
-  background-size: 16px 16px;
-  padding-right: 19px;
-}
 
