@@ -39,6 +39,11 @@
   <link rel="stylesheet" href="/assets/css/experiencia/experiencia-info.css">
   <link rel="stylesheet" href="/assets/css/experiencia/experiencia-titulo.css">
   <link rel="stylesheet" href="/assets/css/experiencia/experiencia-titulos.css">
+  <link rel="stylesheet" href="/assets/css/contacto/contacto.css">
+  <link rel="stylesheet" href="/assets/css/contacto/input-contacto.css">
+  <link rel="stylesheet" href="/assets/css/contacto/boton-contacto.css">
+  <link rel="stylesheet" href="/assets/css/footer/pie-pagina.css">
+  <link rel="stylesheet" href="/assets/css/footer/copyright.css">
 </head>
 
 <body>
@@ -152,6 +157,37 @@
        <a type="button" class="experiencia__boton-demo" href="https://kathelondo.github.io/Challenge1_EncriptadorDeTexto/">Ver Demo</a>
     </div>
   </section>
+  
+  <h1 class="contacto__titulo">Contacto</h1>
+  
+  <section class="contacto">
+    <p class="contacto__descripcion">¿Quieres contactarme?</p>
+    <p class="contacto__descripcion">
+      Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
+    <form class="contacto__info">
+      <label for="nombreapellido">Nombre y Apellido</label>
+
+      <input type="text" class="input__contacto" required>
+
+
+      <label for="correoelectronico">Correo Electrónico</label>
+      <input type="email" class="input__contacto" required placeholder="email@dominio.com">
+
+      <label for="telefono">Teléfono</label>
+      <input type="tel" class="input__contacto" required placeholder="(XX) XXXX XXXX">
+
+      <label for="mensaje">Mensaje</label>
+      <textarea cols="70" rows="10" class="input__contacto" required></textarea>
+      <input type="submit" value="Enviar formulario" class="boton__contacto">
+      
+     
+    </form>
+  </section>
+  <footer class="pie__pagina">
+    <p class="copyright">&copy Desarrollado por Luz Katherine Londoño Gallego</p>
+    <p class="copyright">2023</p>
+    
+  </footer>
     
 </body>
 
