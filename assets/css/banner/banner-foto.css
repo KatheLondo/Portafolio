@@ -1,5 +1,19 @@
-.banner__foto{
-  width:300px;
-  height:300px;
-  border-radius:150px;
+
+@media (min-width:0){
+  .banner__foto{
+    padding: 0;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px 50px 50px 50px;
+  }
+  
+} 
+
+@media (min-width:768px){
+  .banner__foto{
+    width:300px;
+    height:300px;
+    border-radius:150px;
+    
+  }
 }
